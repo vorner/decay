@@ -1,0 +1,17 @@
+[package]
+name = "decay"
+version = "0.1.0"
+authors = ["Michal 'vorner' Vaner <vorner@vorner.cz>"]
+edition = "2018"
+license = "GPL-3+"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+env_logger = "0.8"
+flate2 = "1"
+log = "0.4"
+maildir = "0.5"
+mailparse = "0.13"
+structopt = "0.3"
